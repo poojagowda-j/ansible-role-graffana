@@ -1,0 +1,7 @@
+---
+# handlers file for graffana1
+- name: Restart Grafana
+  systemd:
+    name: grafana-server
+    state: restarted
+  become: yes

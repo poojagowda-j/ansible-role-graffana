@@ -1,0 +1,3 @@
+---
+# defaults file for graffana1
+grafana_port: 3000
